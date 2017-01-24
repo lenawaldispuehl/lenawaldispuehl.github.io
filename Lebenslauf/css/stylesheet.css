@@ -1,0 +1,35 @@
+*{
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background-color: SlateGray;
+  box-sizing: border-box;
+}
+
+h1{
+  text-transform: uppercase;
+  text-decoration:none; border-bottom: 5px solid white;
+}
+
+h1, h2, h3, ul, p{
+  color: white;
+}
+
+h2{
+  margin-top: 50px;
+}
+
+img{
+  width: 25%;
+  border-width: 27%;
+  border-height: 27%;
+  border-color: 10px dotted white;
+  border-style: 10px;
+}
+
+.container{
+  font-size: 125%;
+}
+
+ul{
+  margin-bottom: 50px;
+}
