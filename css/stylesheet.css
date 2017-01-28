@@ -14,15 +14,33 @@ h1{
   font-size: 40px;
 }
 
-h3{
+h3 {
   font-size: 20px;
 }
 
-footer{
+.menupunkte li{
+  display: inline-block;
+  list-style: none;
+}
+
+footer {
   text-transform: uppercase;
-  border-top: solid;
   display: flex;
   justify-content: space-around;
+}
+
+.footerlinks {
+  border-top: 3px solid black;
+  margin: 10px auto;
+  padding-top: 10px;
+  padding-left: 0;
+}
+
+.footerlinks li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style: none;
 }
 
 .sternchen{
