@@ -4,18 +4,21 @@
   <meta charset="utf-8">
   <title>Hallo Internet</title>
   <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+<script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
 </head>
 
 <body>
-  <div align=center>
-    <div class=sternchen>
+  <div>
+    <div class="sternchen">
       <a href="index.html">*</a>
     </div>
 
     <h3>PORTFOLIO</h3>
 
-    <div class="container" align=center>
+  <div class="wrapper">
+    <div class="container">
                 <img src="images/IMG_5096.1.jpg" alt="Motzige Lady" class="image">
                   <div class="overlay">
                     <div class="text"><h3>Motzige Lady</h3><br>
@@ -24,70 +27,155 @@
                     </div>
                   </div>
               </div>
-    <div class="container" align=center>
-                          <img src="images/IMG_0210.jpg" alt="Selbstportrait nach Egon Schiele" class="image">
-                            <div class="overlay">
-                              <div class="text"><h3>Selbstportrait nach Egon Schiele</h3><br>
-                              Bleistift, Fineliner und Aquarell auf Packpapier<br>
-                              Februar 2016
-                              </div>
-                            </div>
-                        </div>
-                        <div class="container" align=center>
-                          <img src="images/IMG_0213.jpg" alt="Schädelstudien" class="image">
-                            <div class="overlay">
-                              <div class="text"><h3>Schädelstudien</h3><br>
-                              Bleistift und Kohle auf Papier<br>
-                              März 2016
-                              </div>
-                            </div>
-                        </div>
-                        <div class="container" align=center>
-                                    <img src="images/IMG_0216.jpg" alt="Schädelstudien II" class="image">
-                                      <div class="overlay">
-                                        <div class="text"><h3>Schädelstudien II</h3><br>
-                                        Bleistift, Farbstift und Acryl auf Papier <br>
-                                        März 2016
-                                        </div>
-                                      </div>
-                                  </div>
-                                  <div class="container" align=center>
-                                              <img src="images/IMG_0218.jpg" alt="Parasiten" class="image">
-                                                <div class="overlay">
-                                                  <div class="text"><h3>Parasiten</h3><br>
-                                                  Bleistift und Aquarell auf Papier <br>
-                                                  Januar 2016
-                                                  </div>
-                                                </div>
-                                            </div>
-                                            <div class="container" align=center>
-                                                        <img src="images/IMG_1845.jpg" alt="Miezen" class="image">
-                                                          <div class="overlay">
-                                                            <div class="text"><h3>Miezen</h3><br>
-                                                            Bleistift und Filzstifte auf Papier<br>
-                                                            Januar 2016
-                                                            </div>
-                                                          </div>
-                                                      </div>
-                                                      <div class="container" align=center>
-                                                                  <img src="images/IMG_1847.jpg" alt="Floating Limbs" class="image">
-                                                                    <div class="overlay">
-                                                                      <div class="text"><h3>Floating Limbs</h3><br>
-                                                                      Fineliner und Filzstifte auf Papier<br>
-                                                                      Januar 2016
-                                                                      </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="container" align=center>
-                                                                            <img src="images/IMG_9845.jpg" alt="It's a match" class="image">
-                                                                              <div class="overlay">
-                                                                                <div class="text"><h3>It's a match</h3><br>
-                                                                                Bleistift auf Papier<br>
-                                                                                Februar 2016
-                                                                                </div>
-                                                                              </div>
-                                                                          </div>
 
+    <div class="container">
+      <img src="images/IMG_0210.jpg" alt="Selbstportrait nach Egon Schiele" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Selbstportrait nach Egon Schiele</h3><br>
+          Bleistift, Fineliner und Aquarell auf Packpapier<br>
+          Februar 2016
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <img src="images/IMG_0213.jpg" alt="Schädelstudien" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Schädelstudien</h3><br>
+          Bleistift und Kohle auf Papier<br>
+          März 2016
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <img src="images/IMG_0216.jpg" alt="Schädelstudien II" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Schädelstudien II</h3><br>
+          Bleistift, Farbstift und Acryl auf Papier <br>
+          März 2016
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+      <img src="images/IMG_0218.jpg" alt="Parasiten" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Parasiten</h3><br>
+          Bleistift und Aquarell auf Papier <br>
+          Januar 2016
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <img src="images/IMG_1845.jpg" alt="Miezen" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Miezen</h3><br>
+          Bleistift und Filzstifte auf Papier<br>
+          Januar 2016
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <img src="images/IMG_1847.jpg" alt="Floating Limbs" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Floating Limbs</h3><br>
+          Fineliner und Filzstifte auf Papier<br>
+          Januar 2016
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <img src="images/_MG_8967.1.jpg" alt="Kaffeepause I" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Kaffeepause I</h3><br>
+          Acryl auf Papier<br>
+          November 2015
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <img src="images/_MG_8973.1.jpg" alt="Kaffeepause II" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Kaffeepause II</h3><br>
+          Acryl auf Papier<br>
+          November 2015
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <img src="images/_MG_8976.1.jpg" alt="Kaffeepause III" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Kaffeepause III</h3><br>
+          Acryl auf Papier<br>
+          November 2015
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <img src="images/IMG_4216.1.jpg" alt="Tiefdruckdame" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Tiefdruckdame</h3><br>
+          Tiefdruck<br>
+          Oktober 2015
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <img src="images/derhammer.jpg" alt="De Hammer" class="image">
+        <div class="overlay">
+          <div class="text"><h3>De Hammer</h3><br>
+          Plakat zum Thema Ausbruch<br>
+          Dezember 2015
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <img src="images/spacecar.png" alt="Spacecar" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Spacecar</h3><br>
+          Plakat zum Thema Ausbruch<br>
+          Dezember 2015
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <img src="images/spokenword.jpg" alt="Spoken Word" class="image">
+        <div class="overlay">
+          <div class="text"><h3>Spoken Word</h3><br>
+          Plakat zu einem Poetry Slam<br>
+          Dezember 2015
+          </div>
+        </div>
+    </div>
+
+    <section class="rowslideshow">
+      <div class="carousel" data-flickity='{ "imagesLoaded": true }'>
+        <div class="carousel-cell"><img src="images/BBhtml1.jpg" alt="Seite 1" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml2.jpg" alt="Seite 2" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml3.jpg" alt="Seite 3" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml4.jpg" alt="Seite 4" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml4.1.jpg" alt="Seite 5" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml5.jpg" alt="Seite 6" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml6.jpg" alt="Seite 7" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml7.jpg" alt="Seite 8" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml8.jpg" alt="Seite 9" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml9.jpg" alt="Seite 10" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml10.jpg" alt="Seite 11" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml11.jpg" alt="Seite 12" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml12.jpg" alt="Seite 13" /></div>
+        <div class="carousel-cell"><img src="images/BBhtml13.jpg" alt="Seite 14" /></div>
+      </div>
+    </section>
 
     <footer id="footer">
 
